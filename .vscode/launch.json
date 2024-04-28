@@ -1,0 +1,35 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "raindrop_2d",
+            "request": "launch",
+            "mainClass": "problem_1.java.raindrop_2d",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
+            "name": "raindrop_3d",
+            "request": "launch",
+            "mainClass": "problem_2.java.raindrop_3d",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWaterII",
+            "request": "launch",
+            "mainClass": "TrappingRainWaterII",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        }
+    ]
+}
