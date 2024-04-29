@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Letcode",
+            "request": "launch",
+            "mainClass": "problem_2.java.Letcode",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
+            "name": "ParallelOptimizeSurfaceAreaDFS",
+            "request": "launch",
+            "mainClass": "problem_2.java.ParallelOptimizeSurfaceAreaDFS",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
+            "name": "OptimizeSurfaceAreaDFS",
+            "request": "launch",
+            "mainClass": "problem_2.java.OptimizeSurfaceAreaDFS",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
+            "name": "SurfaceAreaDFS",
+            "request": "launch",
+            "mainClass": "problem_2.java.SurfaceAreaDFS",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
             "name": "raindrop_2d",
             "request": "launch",
             "mainClass": "problem_1.java.raindrop_2d",
