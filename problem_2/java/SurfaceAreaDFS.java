@@ -64,6 +64,7 @@ public class SurfaceAreaDFS {
         // 使用深度优先搜索找到由1围成的封闭区域
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
+                // 从该层的边缘开始深度优先遍历
                 if (i == 0 || i == rows - 1 || j == 0 || j == cols - 1) {
                     dfs(grid, i, j);
                 }
@@ -87,11 +88,13 @@ public class SurfaceAreaDFS {
 
     // 深度优先
     private void dfs(int[][] grid, int i, int j) {
+        // 超出边界或为0值直接返回
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != 0) {
             return;
         }
 
         grid[i][j] = -1; // Mark visited
+        // 递归
         dfs(grid, i + 1, j);
         dfs(grid, i - 1, j);
         dfs(grid, i, j + 1);

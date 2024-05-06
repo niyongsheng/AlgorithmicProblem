@@ -28,7 +28,7 @@
 
 <img src="./problem_2/raindrop_3d.png" width="260" style="border-radius: 10px;">
 
-<details open>
+<details>
 <summary>代码实现</summary>
 
 #### [`raindrop_3d.c`](/problem_2/c/raindrop_3d.c)
@@ -57,7 +57,7 @@
 
 #### [`ParallelOptimizeSurfaceAreaDFS.java`](/problem_2/java/ParallelOptimizeSurfaceAreaDFS.java)
   > 多线程逐层进行深度优先搜索遍历出封闭区域；<br>
-  > ~~leetcode好像不认可多线程方式，执行超时~~
+  > ~~leetcode好像不认可多线程方式，执行超时(也可能主要耗时仍发生在构建分层矩阵上)~~
   * 解法：DFS
   * 时间复杂度：
   * 空间复杂度：

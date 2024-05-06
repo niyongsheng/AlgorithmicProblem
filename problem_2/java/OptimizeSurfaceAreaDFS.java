@@ -51,16 +51,6 @@ public class OptimizeSurfaceAreaDFS {
         int rows = grid.length;
         int cols = grid[0].length;
 
-        int sum = 0;
-        for (int[] row : grid) {
-            for (int value : row) {
-                sum += value;
-            }
-        }
-        if (sum <= 3) {
-            return 0;
-        }
-
         for (int i = 0; i < rows; i++) {
             dfs(grid, i, 0);
             dfs(grid, i, cols - 1);
