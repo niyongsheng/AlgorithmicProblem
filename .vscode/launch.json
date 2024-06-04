@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ordered_array_sum",
+            "request": "launch",
+            "mainClass": "ordered_array_sum",
+            "projectName": "AlgorithmicProblem_7b00d741"
+        },
+        {
+            "type": "java",
             "name": "Letcode",
             "request": "launch",
             "mainClass": "problem_2.java.Letcode",

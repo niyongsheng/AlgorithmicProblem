@@ -63,14 +63,17 @@
   * 空间复杂度：
   
 #### [`Letcode.java`](/problem_2/java/Letcode.java)
-  > 官方广度优先搜索解法:
+  > leetcode官方广度优先搜索解法:
   * 解法：BFS
   * 时间复杂度：O(M^2 * N^2)
   * 空间复杂度：O(M*N)
   
 </details>
 
+## Expansion
+[《Hello 算法》](https://www.hello-algo.com)
 
+[Krahets 笔面试精选 88 题](https://leetcode.cn/studyplan/selected-coding-interview/)
 
 ## Contact Me
 * E-mail: niyongsheng@Outlook.com
